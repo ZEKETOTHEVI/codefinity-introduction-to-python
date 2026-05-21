@@ -1,0 +1,28 @@
+produce = ["Tomatoes", "Lettuce"]
+dairy = ["Milk", "Cheese"]
+groceries =  [produce,dairy] 
+for sections in   groceries:
+    print("Item name:", sections)
+    for item in sections:
+        print("Item name:", item)
+    
+    
+
+
+# # List of lists representing stock in different departments
+# department_stocks = [
+#     ["Apples", "Bananas", "Cherries"],  # Fruits
+#     ["Milk", "Cheese", "Butter"],       # Dairy
+#     ["Bread", "Bagels", "Muffins"]      # Bakery
+# ]
+
+# print("Inventory Check:")
+# for department in department_stocks:
+#     print(department) # For each iteration of the outer loop, the entire sublist is accessed
+#     # The inner loop then iterates over the items in that sublist
+#     for item in department:
+#         print(f" - {item}")
+#     print("")  # Add a line break for clarity
+        
+        
+        
